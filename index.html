@@ -10,7 +10,7 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" id="cityInput" placeholder=" enter city name" spellcheck="false">
+            <input type="text" id="cityInput" placeholder=" enter city name" >
             <button id="searchBtn"><img src="images/search.png" alt="search"></button>
         </div>
         <div class="weather">
@@ -76,7 +76,7 @@
                     alert("City not found! Please enter a valid city.");
                 }
             } catch (error) {
-                console.error("Error fetching weather data: ", error);
+                console.error("Error fetching weather data : ", error);
             }
         }
 
